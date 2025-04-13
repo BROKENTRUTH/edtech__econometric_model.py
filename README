@@ -1,0 +1,21 @@
+# EdTech Econometric Model
+This repository contains the econometric analysis for the "Economics of EdTech in India" case study competition, organized by Pareto, Economics Club of DoHSS, IITM, and IISER Bhopal Economics Club.
+
+## Purpose
+The model predicts literacy rates based on internet access, device ownership, and teacher training, supporting the *EmpowerEd* policy proposal.
+
+## Files
+- `edtech_econometric_model.py`: Python script for OLS regression analysis.
+- `edtech_data.csv`: Simulated dataset (replace with real data if available).
+- `correlation_matrix.png`: Correlation heatmap.
+- `scatter_*.png`: Actual vs. predicted literacy rate plots.
+
+## Requirements
+- Python 3.8+
+- Libraries: `pandas`, `numpy`, `statsmodels`, `matplotlib`, `seaborn`, `scikit-learn`
+- Install via: `pip install -r requirements.txt`
+
+## Usage
+Run the script:
+```bash
+python edtech_econometric_model.py
